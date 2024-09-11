@@ -1,12 +1,9 @@
 def puissance(a, b):
-    """
-    Calcule a élevé à la puissance b.
-    :param a: Base (entier)
-    :param b: Exposant (entier)
-    :return: Résultat de a ** b
-    :raises TypeError: Si a ou b ne sont pas des entiers
-    """
-    if not type(a) is int or not type(b) is int:
+    if not isinstance(a, int) or not isinstance(b, int):
         raise TypeError("Only integers are allowed")
-    return a ** b
-
+    if b < 0:
+        raise ValueError("Negative exponents are not supported")
+    result = 1
+    for _ in range(b):
+        result *= a
+    return result
