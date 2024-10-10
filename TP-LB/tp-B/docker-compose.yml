@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  app1:
+    build:
+      context: ./app1
+    networks:
+      - tplb
+
+  app2:
+    build:
+      context: ./app2
+    networks:
+      - tplb
+
+  nginx:
+    build:
+      context: ./nginx
+    ports:
+      - "80:80"
+    networks:
+      - tplb
+
+networks:
+  tplb:
+    driver: bridge
+
