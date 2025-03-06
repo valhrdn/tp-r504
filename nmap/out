@@ -1,0 +1,101 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-06 10:48 CET
+Nmap scan report for 172.16.0.75
+Host is up (0.00079s latency).
+All 1000 scanned ports on 172.16.0.75 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 172.16.0.81
+Host is up (0.00068s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 172.16.0.88
+Host is up (0.00070s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+111/tcp open  rpcbind
+
+Nmap scan report for prof-HP-Compaq-Pro-6300-MT (172.16.0.89)
+Host is up (0.00043s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+
+Nmap scan report for 172.16.0.109
+Host is up (0.00089s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 172.16.0.112
+Host is up (0.00088s latency).
+All 1000 scanned ports on 172.16.0.112 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 172.16.0.133
+Host is up (0.00057s latency).
+All 1000 scanned ports on 172.16.0.133 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 172.16.0.135
+Host is up (0.00054s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+
+Nmap scan report for 172.16.0.148
+Host is up (0.00081s latency).
+All 1000 scanned ports on 172.16.0.148 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 172.16.0.155
+Host is up (0.00077s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+
+Nmap scan report for 172.16.0.185
+Host is up (0.00080s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+111/tcp   open  rpcbind
+2049/tcp  open  nfs
+55055/tcp open  unknown
+
+Nmap scan report for 172.16.0.248
+Host is up (0.023s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for _gateway (172.16.0.252)
+Host is up (0.00090s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+23/tcp    open   telnet
+80/tcp    open   http
+443/tcp   open   https
+1723/tcp  closed pptp
+49152/tcp closed unknown
+49153/tcp closed unknown
+
+Nmap scan report for 172.16.0.253
+Host is up (0.033s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+23/tcp open  telnet
+53/tcp open  domain
+80/tcp open  http
+
+Nmap done: 256 IP addresses (14 hosts up) scanned in 12.13 seconds
